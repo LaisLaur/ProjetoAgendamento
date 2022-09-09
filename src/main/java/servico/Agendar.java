@@ -37,9 +37,9 @@ public class Agendar {
         if(iterator.hasNext()){
 
             //saida = "Dia do atendimento "+DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDate.now());
-            builder.append("Dia do atendimento "+DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDate.now()));
+            builder.append("\nDia do atendimento: "+DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDate.now()));
             //saida=saida+ "\nIdentificador Agendamento \t Nome do cliente \t Horário Agendamento";
-            builder.append("\nIdentificador Agendamento \t Nome do cliente \t Horário Agendamento");
+            builder.append("\nIdentificador do Agendamento \t Nome do Cliente \t Horário do Agendamento");
 
 
             while(iterator.hasNext()) {
